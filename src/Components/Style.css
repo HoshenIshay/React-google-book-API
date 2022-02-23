@@ -1,0 +1,80 @@
+ .header {
+    height: 220px;
+    padding: 4px;
+    background-color: violet;
+    opacity: 0.4;
+  }
+.container{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(400px ,0.5fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+}
+    input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+  }
+.card{  
+    background-color: #FFF;
+    box-shadow: #C0C0C0 0px 3px 8px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+    transition: .5s;
+    position: relative;
+    font-size: 10px;
+    padding-top: 1%;
+    color: rgb(99, 99, 99);
+    width : 400px ;
+}
+@media screen and (max-width: 700px) {
+    .card {
+        width : 320px ;
+        padding: 0;
+    }
+    .container{
+        margin-left: 30px;
+    }
+  }
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+img{
+    margin-top: 10%;
+    border-radius: 15px;
+    height: 200px;
+    width: 150px;
+}
+.bottom{
+    padding: 15px;
+    text-align: justify;
+}
+.title{
+    text-align: justify;
+    padding: 15px;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    background-color: #FFF;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 13px;
+}
